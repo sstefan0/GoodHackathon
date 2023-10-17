@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m4Vu2oDD6EdiJraItEGydLIkNp5zlmJSAyYS1yerMrk=",
+  "Source": "SAP-dotnet",
+  "BasePath": "_content/SAP-dotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
