@@ -60,9 +60,8 @@ export const accountSlice = createSlice({
       (state, action) => {
         state.user = action.payload;
 
-        setTimeout(() => {
-          toast.success("Uspjesno ste se prijavili");
-        }, 100);
+      
+        
       }
     );
     builder.addMatcher(
