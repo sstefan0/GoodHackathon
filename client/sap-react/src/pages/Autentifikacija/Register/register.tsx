@@ -26,7 +26,7 @@ export default function SignUp() {
     register,
     handleSubmit,
     setError,
-    formState: { isSubmitting, errors, isValid },
+    formState: { errors, isValid },
   } = useForm({
     mode: "onTouched",
   });
@@ -52,7 +52,7 @@ export default function SignUp() {
         <CssBaseline />
         <Box
           sx={{
-            marginTop: 8,
+            marginTop: 5,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -84,7 +84,25 @@ export default function SignUp() {
               <Grid item xs={12}>
                 <TextField
                   fullWidth
-                  label="Username"
+                  label="Ime"
+                  {...register("ime", {
+                    required: "Name is required",
+                  })}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  fullWidth
+                  label="Prezime"
+                  {...register("prezime", {
+                    required: "Surname is required",
+                  })}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  fullWidth
+                  label="Korisnicko ime"
                   autoFocus
                   {...register("username", {
                     required: "Username is required",
@@ -112,7 +130,16 @@ export default function SignUp() {
               <Grid item xs={12}>
                 <TextField
                   fullWidth
-                  label="Password"
+                  label="Ulica"
+                  {...register("adresaStanovanja", {
+                    required: "Street is required",
+                  })}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  fullWidth
+                  label="Lozinka"
                   type="password"
                   {...register("password", {
                     required: "password is required",

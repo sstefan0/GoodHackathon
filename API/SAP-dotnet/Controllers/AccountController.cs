@@ -32,13 +32,18 @@ namespace SAP_dotnet.Controllers
             if (user ==null || !await _userManager.CheckPasswordAsync(user,login.Password) )return Unauthorized();
             return new UserDTO{
                 Email=user.Email!,
-                Token=await _tokenService.GenerateToken(user)
+                Token=await _tokenService.GenerateToken(user),
+                AdresaStanovanja=user.AdresaStanovanja,
+                Ime=user.Ime,
+                Prezime=user.Prezime,
+                Username=user.UserName
+
             };
 
         }
         [HttpPost("register")]
         public async Task<ActionResult> Register (RegisterDTO registerDTO){
-            var user =new User {UserName=registerDTO.Username,Email=registerDTO.Email};
+            var user =new User {UserName=registerDTO.Username,Email=registerDTO.Email,Ime=registerDTO.Ime,Prezime=registerDTO.Prezime,AdresaStanovanja=registerDTO.AdresaStanovanja};
             var result=await _userManager.CreateAsync(user,registerDTO.Password);
             if (!result.Succeeded){
                 
@@ -58,7 +63,11 @@ namespace SAP_dotnet.Controllers
             var user=await _userManager.FindByNameAsync(User.Identity?.Name!);
             return new UserDTO{
                 Email=user?.Email!,
-                Token=await _tokenService.GenerateToken(user!)
+                Token=await _tokenService.GenerateToken(user!),
+                AdresaStanovanja=user.AdresaStanovanja,
+                Ime=user.Ime,
+                Prezime=user.Prezime,
+                Username=user.UserName
             };
         }
 
