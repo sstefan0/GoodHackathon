@@ -58,7 +58,7 @@ export default function SignIn() {
             <TextField
               margin="normal"
               fullWidth
-              label="Username"
+              label="Korisnicko ime"
               autoFocus
               {...register("username", { required: "Username is requierd" })}
               error={!!errors.username}
@@ -67,7 +67,7 @@ export default function SignIn() {
             <TextField
               margin="normal"
               fullWidth
-              label="Password"
+              label="Lozinka"
               type="password"
               {...register("password", { required: "Password is requierd" })}
               error={!!errors.password}

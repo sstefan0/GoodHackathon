@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stefan\\Downloads\\SAP\\API\\SAP-dotnet\\SAP-dotnet.csproj": {}
+    "/Users/vladimirelek/Desktop/GoodHackathon/API/SAP-dotnet/SAP-dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stefan\\Downloads\\SAP\\API\\SAP-dotnet\\SAP-dotnet.csproj": {
+    "/Users/vladimirelek/Desktop/GoodHackathon/API/SAP-dotnet/SAP-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan\\Downloads\\SAP\\API\\SAP-dotnet\\SAP-dotnet.csproj",
+        "projectUniqueName": "/Users/vladimirelek/Desktop/GoodHackathon/API/SAP-dotnet/SAP-dotnet.csproj",
         "projectName": "SAP-dotnet",
-        "projectPath": "C:\\Users\\Stefan\\Downloads\\SAP\\API\\SAP-dotnet\\SAP-dotnet.csproj",
-        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan\\Downloads\\SAP\\API\\SAP-dotnet\\obj\\",
+        "projectPath": "/Users/vladimirelek/Desktop/GoodHackathon/API/SAP-dotnet/SAP-dotnet.csproj",
+        "packagesPath": "/Users/vladimirelek/.nuget/packages/",
+        "outputPath": "/Users/vladimirelek/Desktop/GoodHackathon/API/SAP-dotnet/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/vladimirelek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -55,7 +55,9 @@ const Navbar = () => {
 
             {user ? (
               <div className="right-links">
-                <h3 className="right-link">{user.email}</h3>
+                <Link to={"/profile"} className="right-link">
+                  {user.email}
+                </Link>
 
                 <Link to={"/"} onClick={buttonHandler} className="right-link">
                   <LogoutSharpIcon />

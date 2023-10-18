@@ -6,6 +6,7 @@ import SignUp from "./pages/Autentifikacija/Register/register";
 import SwipeableTextMobileStepper from "./pages/Home/homepage";
 import Home from "./pages/Home/homepage";
 import Products from "./pages/Products/products-page";
+import Profil from "./pages/Profil/profil";
 export const router = createBrowserRouter([
   {
     element: <Navbar />,
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/profile",
+        element: <Profil />,
       },
     ],
   },
