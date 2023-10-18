@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Korisnik\\Desktop\\GoodHackathon\\api\\sap-dotnet\\SAP-dotnet.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Korisnik\\Desktop\\GoodHackathon\\api\\sap-dotnet\\SAP-dotnet.csproj",
         "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Korisnik\\Desktop\\GoodHackathon\\api\\sap-dotnet\\obj\\",
+=======
+    "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\SAP-dotnet.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\SAP-dotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\SAP-dotnet.csproj",
+        "projectName": "SAP-dotnet",
+        "projectPath": "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\SAP-dotnet.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\obj\\",
+>>>>>>> d3e785d (added leaflet map)
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
