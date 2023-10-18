@@ -45,7 +45,7 @@ const Navbar = () => {
                 PROZOR
               </Link>
 
-              <Link to="/" className="center-link">
+              <Link to="/maps" className="center-link">
                 PROZOR
               </Link>
               <Link to="/" className="center-link">

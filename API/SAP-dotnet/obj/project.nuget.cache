@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b/tFSsPnn0lZgDgQVr8tRBYDesbidWl69LmdtPgvKmAHH05MUhRLBQy/8TEHjoSyLiov4ZRb/kAA/VRR1amKPg==",
+  "dgSpecHash": "azAhJNSZiJ59iT38dLWiDt+PMvYfR08SPIzpTBHmfNF1eQMmrhPgZsmBkDpK6k4/Yl4HPuuIny8w+59eyZP76g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan\\Downloads\\SAP\\API\\SAP-dotnet\\SAP-dotnet.csproj",
+  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\SAP-dotnet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Stefan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

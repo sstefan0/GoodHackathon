@@ -19,11 +19,11 @@ export default function Products() {
   const [products, setProducts] = useState<Product[]>([]);
   useEffect(() => {
     agent.Products.getAllProducts()
-      .then((items) => {
+      .then((items: Product[]) => {
         setProducts(items);
         console.log(items);
       })
-      .catch((error) => console.log(error));
+      .catch((error: Error) => console.log(error));
   }, []);
   return (
     <div className="cardsContainer">
