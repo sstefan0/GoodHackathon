@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "phcoeuF+R+I+sGdhCE2wqFqdBK4QeqLGGSgBHtWyGma+kJtBI83RaiZMT6seWiyWvmVwzL/6PoDv7995OS4OKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Korisnik\\Desktop\\GoodHackathon\\api\\sap-dotnet\\SAP-dotnet.csproj",
@@ -9,6 +10,11 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\SAP-dotnet.csproj",
 >>>>>>> d3e785d (added leaflet map)
+=======
+  "dgSpecHash": "azAhJNSZiJ59iT38dLWiDt+PMvYfR08SPIzpTBHmfNF1eQMmrhPgZsmBkDpK6k4/Yl4HPuuIny8w+59eyZP76g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\hakaton sarajevo drugi put\\GoodHackathon\\api\\SAP-dotnet\\SAP-dotnet.csproj",
+>>>>>>> d3e785d013c399a4fc9a2b073011a30f16e4a39d
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

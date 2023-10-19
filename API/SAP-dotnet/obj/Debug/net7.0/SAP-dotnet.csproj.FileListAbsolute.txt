@@ -504,4 +504,7 @@ C:\Users\Stefan\Desktop\hakaton sarajevo drugi put\GoodHackathon\api\SAP-dotnet\
 C:\Users\Stefan\Desktop\hakaton sarajevo drugi put\GoodHackathon\api\SAP-dotnet\obj\Debug\net7.0\SAP-dotnet.pdb
 C:\Users\Stefan\Desktop\hakaton sarajevo drugi put\GoodHackathon\api\SAP-dotnet\obj\Debug\net7.0\SAP-dotnet.genruntimeconfig.cache
 C:\Users\Stefan\Desktop\hakaton sarajevo drugi put\GoodHackathon\api\SAP-dotnet\obj\Debug\net7.0\ref\SAP-dotnet.dll
+<<<<<<< HEAD
 >>>>>>> d3e785d (added leaflet map)
+=======
+>>>>>>> d3e785d013c399a4fc9a2b073011a30f16e4a39d
